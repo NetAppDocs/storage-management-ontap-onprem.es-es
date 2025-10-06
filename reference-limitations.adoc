@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations.html 
+keywords: limitations, system manager, unsupported features, on-premises ONTAP in NetApp Console 
+summary: Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del producto o que no interoperan correctamente con él. Revise estas limitaciones cuidadosamente. 
+---
+= Limitaciones conocidas de la gestión de clústeres ONTAP locales en la consola de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del producto o que no interoperan correctamente con él. Revise estas limitaciones cuidadosamente.
+
+
+
+== Limitaciones relacionadas con los sistemas ASA r2
+
+Después de descubrir un sistema NetApp ASA r2, se le dirige al Administrador del sistema.
+
+No hay otras opciones de gestión disponibles con los sistemas ASA r2.  No puede utilizar la vista estándar ni habilitar los servicios de datos de NetApp .
+
+https://docs.netapp.com/us-en/asa-r2/index.html["Obtenga más información sobre los sistemas ASA r2"^]
+
+
+
+== Clústeres no compatibles
+
+Los clústeres ONTAP locales que están configurados con autenticación SAML no son compatibles con la consola.
+
+
+
+== Limitaciones del Administrador del sistema
+
+Las siguientes funciones del Administrador del sistema no son compatibles con la consola:
+
+* Configuración del clúster
++
+Después de configurar la dirección IP de administración y la contraseña de administrador en un clúster de ONTAP local, puede descubrir el clúster en la consola.
+
+* Control de acceso basado en roles (solo agente de consola)
++
+El control de acceso basado en roles desde System Manager no es compatible al descubrir y administrar un clúster de ONTAP local mediante un agente de consola.  Se le solicitará que ingrese sus credenciales de administrador durante el proceso de descubrimiento.  Estas credenciales se utilizan para todas las acciones realizadas desde el Administrador del sistema.
+
++
+Con la opción de descubrimiento directo, se le solicitará que inicie sesión con sus credenciales de ONTAP cada vez que abra el sistema en la Consola.
+
+* Activación de NetApp Backup and Recovery
++
+La versión del clúster debe ser 9.13.1 para habilitar la copia de seguridad y recuperación desde el Administrador del sistema.
+
++
+Si _no_ descubrió un clúster mediante un agente de consola, entonces no podrá usar el Administrador del sistema (vista avanzada) para habilitar la Copia de seguridad y recuperación.  Sin embargo, puedes habilitar la Copia de seguridad y recuperación en un clúster local directamente desde la Consola. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Aprenda cómo empezar"^]
+
+* Actualizaciones bajo demanda
++
+Las actualizaciones a pedido de firmware y software no están disponibles si la versión del clúster es ONTAP 9.9.1 o anterior.
+
++
+Si no tiene un agente de consola, no podrá realizar actualizaciones desde su máquina local, solo desde un servidor al que se pueda acceder mediante la consola.
+
+* Búsqueda global
+* Configuración de la interfaz de usuario
+

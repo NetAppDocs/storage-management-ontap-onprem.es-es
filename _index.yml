@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: Administración de clústeres ONTAP locales mediante la consola de NetApp
+  summary: Administre sus sistemas NetApp AFF y FAS desde la consola de NetApp para
+    aprovisionar almacenamiento, replicar datos y configurar servicios de datos críticos
+    basados ​​en la nube.
+  keywords: bluexp, netapp console, ontap, discover onprem
+  lead: Administre sus sistemas NetApp AFF y FAS desde la consola de NetApp para aprovisionar
+    almacenamiento, replicar datos y configurar servicios de datos críticos basados
+    ​​en la nube.
+  tiles:
+  - title: Empezar
+    links:
+    - title: Obtenga más información sobre la gestión de clústeres ONTAP locales
+      url: concept-onprem-ontap.html
+    - title: Descubra los clústeres de ONTAP
+      url: task-discovering-ontap.html
+  - title: Administrar clústeres ONTAP locales en la consola de NetApp
+    links:
+    - title: Administrar clústeres descubiertos directamente
+      url: task-manage-ontap-direct.html
+    - title: Administrar clústeres descubiertos con un agente de consola
+      url: task-manage-ontap-connector.html
+  - title: Blogs y comunidad
+    links:
+    - title: Consola de NetApp
+      url: https://www.netapp.com/console
+    - title: Servicios de datos de NetApp
+      url: https://www.netapp.com/data-services/
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/

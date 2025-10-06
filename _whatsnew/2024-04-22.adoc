@@ -1,0 +1,9 @@
+= Las plantillas de volumen ya no son compatibles
+:allow-uri-read: 
+
+
+
+
+=== Las plantillas de volumen ya no son compatibles
+
+Ya no es posible crear un volumen a partir de una plantilla.  Esta acción estaba asociada con el servicio de remediación BlueXP , que ya no está disponible.

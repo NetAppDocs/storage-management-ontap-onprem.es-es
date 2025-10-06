@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: concept-aiq-digital-advisor.html 
+keywords: concepts, active iq digital advisor, ontap 
+summary: El asesor digital le permite optimizar las operaciones, la seguridad y el rendimiento de sus clústeres ONTAP . 
+---
+= Optimice los clústeres con NetApp Digital Advisor
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Digital Advisor le permite optimizar las operaciones, la seguridad y el rendimiento de sus clústeres ONTAP .
+
+
+
+== Funciones
+
+Puede ver el estado general de su sistema de almacenamiento, información de alto nivel sobre el bienestar del sistema, inventario, planificación, actualizaciones y conocimientos valiosos a nivel de lista de seguimiento utilizando Digital Advisor.
+
+* Analice y optimice la salud de sus sistemas de almacenamiento
+* Obtenga información sobre todos los riesgos para sus sistemas de almacenamiento y las acciones para mitigarlos.
+* Analice el rendimiento de sus dispositivos de almacenamiento visualizando el formato gráfico de los datos de rendimiento
+* Obtenga detalles sobre los sistemas que han superado el 90 % de su capacidad o que se están acercando al 90 % de su capacidad
+* Obtenga información sobre el hardware y el software que han expirado o están próximos a expirar en los próximos 6 meses
+* Actualice el software de su sistema de almacenamiento y actualice el firmware de ONTAP usando Ansible
+
+
+
+
+== Sistemas ONTAP compatibles
+
+Digital Advisor proporciona información para todos los sistemas ONTAP locales y los sistemas Cloud Volumes ONTAP asociados con su cuenta del Sitio de soporte de NetApp (NSS).
+
+
+
+== Más información
+
+https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Documentación de Digital Advisor"^]

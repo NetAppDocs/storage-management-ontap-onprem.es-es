@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-direct.html 
+keywords: direct discovery, direct, system manager, local, local discovery, 
+summary: Si descubrió su clúster ONTAP local directamente sin usar un agente de consola de NetApp , puede abrir el sistema en la consola de NetApp para administrar el clúster mediante ONTAP System Manager. 
+---
+= Administrar clústeres que se descubrieron directamente en la consola de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si descubrió su clúster ONTAP local directamente sin usar un agente de consola, puede abrir el sistema en la consola para administrar el clúster y acceder al Administrador del sistema ONTAP .
+
+.Rol de consola requerido:
+Administrador de almacenamiento o especialista en salud del sistema.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la consola."^]
+
+.Antes de empezar
+La computadora que está utilizando para acceder a la consola debe tener una conexión de red al clúster ONTAP local, de manera similar a cómo proporcionaría conexiones a otros recursos en su red privada.
+
+.Limitaciones
+Algunas funciones del Administrador del sistema no son compatibles con la consola.
+
+link:reference-limitations.html["Revisar la lista de limitaciones"] .
+
+.Pasos
+. En la página *Sistemas*, seleccione el sistema ONTAP local.
++
+El icono del sistema identifica los clústeres que se descubrieron directamente:
+
++
+image:screenshot-direct-discovery-we.png["Una captura de pantalla del ícono del sistema que aparece en la página del Sistema"]
+
+. Si se le solicita, ingrese sus credenciales de ONTAP .
++
+El sistema le solicita que inicie sesión con sus credenciales de ONTAP cada vez que lo abra, a menos que guarde las credenciales. Puede guardarlas para no tener que ingresarlas cada vez. Puede administrarlas en la página Credenciales de usuario.  En algunos casos, es posible que su administrador de consola (con el rol de administrador de la organización) haya deshabilitado esta opción y le solicite que ingrese sus credenciales cada vez.
+
++
+image:screenshot-credentials.png["Una captura de pantalla que muestra la solicitud para ingresar el nombre de usuario y la contraseña para un clúster ONTAP ."]
+
+. Utilice el Administrador del sistema para administrar ONTAP.
++
+Si necesita ayuda para utilizar el Administrador del sistema con ONTAP, puede consultar https://docs.netapp.com/us-en/ontap/index.html["Documentación de ONTAP"^] para obtener instrucciones paso a paso.  Los siguientes enlaces proporcionan orientación adicional:
+
++
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["Gestión de volúmenes y LUN"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["Gestión de red"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["Protección de datos"^]
+
+
+

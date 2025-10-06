@@ -1,0 +1,190 @@
+---
+sidebar: sidebar 
+permalink: task-discovering-ontap.html 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor 
+summary: Descubra los clústeres ONTAP locales desde la consola de NetApp para que pueda comenzar a administrar volúmenes y realizar una gestión avanzada mediante ONTAP System Manager, que está disponible desde la consola. 
+---
+= Descubra los clústeres ONTAP locales en la consola de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Descubra los clústeres ONTAP locales desde la consola de NetApp para que pueda comenzar a administrar volúmenes y realizar una gestión avanzada mediante ONTAP System Manager, directamente desde la consola.
+
+.Rol de consola requerido:
+Administrador de almacenamiento o especialista en salud del sistema.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la consola de NetApp ."^]
+
+
+
+== Paso 1: Revisar las opciones de descubrimiento y gestión
+
+Puede agregar clústeres ONTAP locales a la consola de dos maneras.  La forma de elegir dependerá de si tiene o no un agente de consola instalado en su organización:
+
+Descubrimiento y gestión mediante un agente de consola:: Esta opción le permite administrar clústeres que ejecutan ONTAP 8.3 y versiones posteriores mediante las siguientes funciones:
++
+--
+* Proporciona operaciones de volumen básicas de forma nativa a través de la consola de NetApp
+* ONTAP System Manager (compatible con ONTAP 9.10.0 y versiones posteriores): acceda al System Manager para cada clúster respectivo directamente desde la consola
+* Integración con servicios de datos de NetApp que proporcionan replicación de datos, respaldo y recuperación, clasificación de datos y niveles de nube.
+* Debe tener el rol de administrador de la organización para instalar un agente de consola.  Comuníquese con el administrador de su consola si tiene preguntas. https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html#contact-your-organization-administrator["Comuníquese con el administrador de su organización."^]
+
+
+--
+Descubrimiento y gestión directa:: Esta opción le permite administrar clústeres que ejecutan ONTAP 9.12.1 y versiones posteriores mediante el Administrador del sistema.  No hay otras opciones de gestión disponibles.  No puede utilizar la vista estándar ni habilitar los servicios de datos de NetApp .
++
+--
+Esta opción no requiere un agente de consola.
+
+Cuando accede al Administrador del sistema en un clúster de ONTAP local que ejecuta 9.12.1 o posterior con conectividad a la consola, se le solicitará que administre el clúster directamente desde la consola.  Si sigue este mensaje, descubrirá el clúster en la consola mediante la opción de descubrimiento directo.
+
+--
+
+
+Una vez descubiertos, sus clústeres estarán disponibles en la página *Sistemas* de la Consola.
+
+Si decide agregar un agente de consola a su consola de NetApp , deberá volver a agregar su clúster local desde la página *Sistemas no descubiertos*.  Esto permite la gestión nativa desde la consola y el acceso a los servicios de datos de NetApp .  Luego debes eliminar el otro sistema.
+
+
+
+== Paso 2: Configura tu entorno
+
+Antes de descubrir sus clústeres ONTAP locales, asegúrese de cumplir con los siguientes requisitos.
+
+Requisitos generales::
++
+--
+* Necesita la dirección IP de administración del clúster y la contraseña para la cuenta de usuario administrador.
+* La consola descubre clústeres ONTAP mediante HTTPS.  Si utiliza políticas de firewall personalizadas, el clúster ONTAP debe permitir el acceso HTTPS entrante a través del puerto 443.
++
+La política de firewall predeterminada "mgmt" permite el acceso HTTPS entrante desde todas las IP.  Si se modifica, asegúrese de que el protocolo HTTPS esté habilitado para el host del agente.
+
+
+
+--
+Para descubrir un sistema con un agente de consola::
++
+--
+* El clúster local debe ejecutar ONTAP 8.3 o posterior.
+* Debe tener un agente de consola instalado en un proveedor de nube o en sus instalaciones.
++
+Para transferir datos fríos a la nube, revise los requisitos del agente para su entorno de destino.
+
++
+** https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html["Obtenga más información sobre los agentes de consola"^]
+** https://docs.netapp.com/us-en/console-setup-admin/task-manage-multiple-connectors.html["Aprenda a cambiar entre múltiples agentes"^]
+** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["Obtenga más información sobre la organización en niveles de la nube de NetApp"^]
+
+
+* El host del agente debe permitir conexiones salientes a través del puerto 443 (HTTPS) y el clúster ONTAP debe permitir el acceso HTTP entrante a través del puerto 443 al LIF de administración del clúster.
++
+Si el agente está en la nube, el grupo de seguridad predefinido permite toda la comunicación saliente.
+
+
+
+--
+Requisitos para el descubrimiento directo::
++
+--
+* El clúster local debe ejecutar ONTAP 9.12.1 o posterior.
+* El clúster debe tener conectividad entrante y saliente al servicio de consola de NetApp :
++
+\ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
+
+* La computadora que está utilizando para acceder a la consola debe tener una conexión de red al clúster ONTAP local, de manera similar a cómo proporcionaría conexiones a otros recursos en su red privada.
+
+
+--
+
+
+
+
+== Paso 3: Descubrir un clúster
+
+Descubra sus clústeres ONTAP locales desde la consola de una de estas dos maneras:
+
+* Desde *Almacenamiento > Administración > Sistemas*, seleccione *Agregar +* y agregue manualmente detalles sobre el clúster ONTAP local.
+* En *Almacenamiento > Administración > Sistemas detectables*, seleccione un clúster que la consola haya descubierto previamente en función de los clústeres de ONTAP asociados con la dirección de correo electrónico para su inicio de sesión en la consola de NetApp .
+
+
+Cuando inicia el proceso de descubrimiento, la consola descubre un clúster de la siguiente manera:
+
+* Si tiene un agente de consola que tiene una conexión a un clúster de ONTAP , entonces la consola usa ese agente para descubrir y administrar el clúster.
+* Si no tiene un agente de consola o si su agente no tiene una conexión al clúster de ONTAP , la consola utiliza automáticamente la opción de descubrimiento y administración directa.
+
+
+[role="tabbed-block"]
+====
+.Descubrir un clúster manualmente
+--
+Descubra un clúster ONTAP local en la consola ingresando la dirección IP de administración del clúster y la contraseña de la cuenta de usuario administrador.
+
+.Pasos
+. Desde el menú de navegación, seleccione *Almacenamiento > Administración*.
+. En la página *Sistemas*, seleccione *Agregar +*.
+. Seleccione *En las instalaciones*.
+. Junto a On-Premises ONTAP, seleccione *Descubrir*.
+. En la página _Descubrir_, ingrese la dirección IP de administración del clúster y la contraseña de la cuenta de usuario administrador.
+. Si está descubriendo el clúster directamente (sin un agente de consola), seleccione *Guardar las credenciales*.
++
+Si selecciona esta opción, no necesitará volver a ingresar las credenciales cada vez que acceda al sistema desde la Consola.  Estas credenciales están asociadas con su propio inicio de sesión de usuario de la consola de NetApp .  No se guardan para que los utilice ninguna otra persona en la organización de la consola de NetApp .
+
+. Seleccione *Descubrir*.
++
+Si no tiene un agente de consola y no se puede acceder a la dirección IP desde la consola, se le solicitará que cree un agente de consola.  Comuníquese con el administrador de su consola para crear un agente de consola si no tiene uno.
+
+
+
+.Resultado
+La consola agrega el clúster descubierto como un sistema en la página *Sistemas*. Ahora puedes comenzar a administrar el clúster.
+
+* link:task-manage-ontap-direct.html["Aprenda a administrar clústeres descubiertos directamente"]
+* link:task-manage-ontap-connector.html["Aprenda a administrar clústeres descubiertos con un agente de consola"]
+
+
+--
+.Agregar un clúster previamente descubierto
+--
+La consola descubre los clústeres ONTAP vinculados a su correo electrónico de inicio de sesión y los muestra como clústeres no descubiertos en la página *Sistemas detectables*.  Puede ver la lista de clústeres no descubiertos y agregarlos uno a la vez.
+
+.Acerca de esta tarea
+Tenga en cuenta lo siguiente sobre los clústeres ONTAP locales que aparecen en la página *Sistemas detectables*:
+
+* La dirección de correo electrónico que utiliza para iniciar sesión en la consola debe estar asociada a una cuenta registrada del sitio de soporte de NetApp (NSS) de nivel completo.
++
+** Si inicia sesión en la consola con su cuenta NSS y navega a la página *Sistemas detectables*, la consola usa esa cuenta NSS para encontrar los clústeres asociados con la cuenta.
+** Si inicia sesión en la consola con una cuenta local o una conexión federada y navega a la página *Sistemas detectables*, la consola le solicitará que verifique su correo electrónico.  Si esa dirección de correo electrónico está asociada con una cuenta NSS, la consola utiliza esa información para encontrar los clústeres asociados con la cuenta.
+
+
+* La consola solo muestra los clústeres ONTAP que han enviado correctamente mensajes de AutoSupport a NetApp.
+* Para actualizar la lista de inventario, salga de la página *Sistemas detectables*, espere 5 minutos y luego vuelva a ella.
+
+
+.Pasos
+. Desde el menú de navegación, seleccione *Almacenamiento > Administración*.
+. En la página *Sistemas detectables*, seleccione *Descubrir* para ONTAP local.
++
+image:screenshot-my-estate-ontap.png["Una captura de pantalla de la página de sistemas detectables que muestra 12 clústeres ONTAP locales no descubiertos."]
+
+. Seleccione un clúster y luego seleccione *Descubrir*.
++
+image:screenshot-my-estate-ontap-discover.png["Una captura de pantalla de la página de sistemas detectables que muestra 12 clústeres ONTAP locales no descubiertos."]
+
+. Introduzca la contraseña para la cuenta de usuario administrador.
+. Seleccione *Descubrir*.
++
+Si no tiene un agente de consola y no se puede acceder a la dirección IP desde la consola, se le solicitará que cree un agente de consola.  Comuníquese con el administrador de su consola para crear un agente de consola si no tiene uno.
+
++
+** link:task-manage-ontap-direct.html["Aprenda a administrar clústeres descubiertos directamente"]
+** link:task-manage-ontap-connector.html["Aprenda a administrar clústeres descubiertos con un agente de consola"]
+
+
+
+
+--
+====

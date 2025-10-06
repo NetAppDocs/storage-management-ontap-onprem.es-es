@@ -1,0 +1,17 @@
+= Compatibilidad con sistemas ASA r2
+:allow-uri-read: 
+
+
+
+
+=== Compatibilidad con sistemas ASA r2
+
+Ahora puede descubrir sistemas NetApp ASA r2 en BlueXP cuando usa BlueXP en modo estándar o modo restringido.  Después de descubrir un sistema NetApp ASA r2 y abrir el entorno de trabajo, será llevado directamente al Administrador del sistema.
+
+No hay otras opciones de gestión disponibles con los sistemas ASA r2.  No puedes usar la vista Estándar y no puedes habilitar los servicios de BlueXP .
+
+El descubrimiento de sistemas ASA r2 no es compatible cuando se utiliza BlueXP en modo privado.
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["Obtenga más información sobre los sistemas ASA r2"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["Obtenga más información sobre los modos de implementación de BlueXP"^]
+

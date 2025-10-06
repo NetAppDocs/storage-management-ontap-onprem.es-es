@@ -1,0 +1,9 @@
+= Se necesita el rol de acceso a BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Se necesita el rol de acceso a BlueXP
+
+Ahora necesita uno de los siguientes roles de acceso para ver, descubrir o administrar clústeres de ONTAP locales: administrador de la organización, administrador de carpeta o proyecto, administrador de almacenamiento o especialista en estado del sistema. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso."^]
