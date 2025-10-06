@@ -14,9 +14,9 @@ summary: La billetera digital le permite ver los detalles del contrato para cada
 
 
 [role="lead"]
-Puede ver los detalles del contrato para cada uno de sus clústeres ONTAP locales en la consola de NetApp . Si aún no ha descubierto un clúster, también puede hacerlo desde la página *Suscripciones y licencias*.
+Puede ver los detalles del contrato para cada uno de sus clústeres ONTAP locales en la NetApp Console. Si aún no ha descubierto un clúster, también puede hacerlo desde la página *Suscripciones y licencias*.
 
 .Rol de consola requerido:
-Administrador de almacenamiento o visor de almacenamiento.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la consola de NetApp ."^]
+Administrador de almacenamiento o visor de almacenamiento.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la NetApp Console ."^]
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Obtenga más información sobre cómo administrar licencias para clústeres ONTAP locales desde la consola"^]

@@ -14,9 +14,9 @@ summary: Si descubrió un clúster ONTAP local mediante un agente de consola, pu
 
 
 [role="lead"]
-Si descubrió un clúster ONTAP local mediante un agente de consola, puede crear volúmenes directamente desde la consola de NetApp , acceder a ONTAP System Manager (directamente desde la consola) para una administración avanzada y habilitar los servicios de datos de NetApp .
+Si descubrió un clúster ONTAP local mediante un agente de consola, puede crear volúmenes directamente desde la NetApp Console, acceder a ONTAP System Manager (directamente desde la consola) para una administración avanzada y habilitar los servicios de datos de NetApp .
 
-.Rol de consola de NetApp requerido:
+.Rol de NetApp Console requerido:
 Administrador de almacenamiento o especialista en salud del sistema.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la consola."^]
 
 En la página *Sistemas*, el ícono del sistema de un clúster que descubrió con un agente de consola se parece al siguiente:
@@ -27,7 +27,7 @@ Si descubre un sistema directamente, el icono del sistema muestra la palabra "Di
 
 
 
-== Cree volúmenes FlexVol desde la consola de NetApp
+== Cree volúmenes FlexVol desde la NetApp Console
 
 Después de agregar su clúster ONTAP local a la consola mediante un agente de consola, puede aprovisionar y administrar volúmenes FlexVol directamente desde la consola.
 
@@ -80,9 +80,9 @@ La siguiente lista describe campos para los cuales podría necesitar orientació
 
 
 
-== Cree volúmenes FlexGroup con la API de la consola de NetApp
+== Cree volúmenes FlexGroup con la API de la NetApp Console
 
-Puede utilizar la API de la consola de NetApp para crear volúmenes FlexGroup .  Un volumen FlexGroup es un volumen escalable que proporciona alto rendimiento junto con distribución automática de carga.
+Puede utilizar la API de la NetApp Console para crear volúmenes FlexGroup .  Un volumen FlexGroup es un volumen escalable que proporciona alto rendimiento junto con distribución automática de carga.
 
 * https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["Aprenda a crear un volumen FlexGroup usando la API"^]
 * https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["Descubra qué es un volumen FlexGroup"^]
@@ -90,7 +90,7 @@ Puede utilizar la API de la consola de NetApp para crear volúmenes FlexGroup . 
 
 
 
-== Acceda a ONTAP System Manager desde la consola de NetApp
+== Acceda a ONTAP System Manager desde la NetApp Console
 
 Puede acceder a la interfaz del Administrador del sistema ONTAP directamente dentro de la Consola.
 
@@ -140,7 +140,7 @@ link:reference-limitations.html["Revisar la lista de limitaciones"] .
 
 
 
-=== Acceda a ONTAP System Manager desde la consola de NetApp
+=== Acceda a ONTAP System Manager desde la NetApp Console
 
 Abra el Administrador del sistema para el sistema.
 
@@ -175,7 +175,7 @@ Habilite los servicios de datos de NetApp en sus sistemas para replicar datos, r
 Replicar datos:: Replique datos entre sistemas Cloud Volumes ONTAP , sistemas de archivos Amazon FSx para ONTAP y clústeres ONTAP .  Elija una replicación de datos única, que puede ayudarlo a mover datos hacia y desde la nube, o una programación recurrente, que puede ayudar con la recuperación ante desastres o la retención de datos a largo plazo.
 +
 --
-https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Documentación de replicación de NetApp"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Documentación de NetApp Replication"^]
 
 --
 Realizar copias de seguridad de los datos:: Realice una copia de seguridad de los datos de su sistema ONTAP local en un almacenamiento de objetos de bajo costo en la nube.
@@ -187,7 +187,7 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.htm
 Escanee, mapee y clasifique sus datos:: Escanee sus clústeres locales corporativos para mapear y clasificar datos e identificar información privada.  Esto puede ayudar a reducir el riesgo de seguridad y cumplimiento, disminuir los costos de almacenamiento y ayudarlo con sus proyectos de migración de datos.
 +
 --
-https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Documentación de clasificación de datos de NetApp"^]
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Documentación de NetApp Data Classification"^]
 
 --
 Datos en niveles a la nube:: Amplíe su centro de datos a la nube organizando automáticamente en niveles los datos inactivos de los clústeres ONTAP en el almacenamiento de objetos.

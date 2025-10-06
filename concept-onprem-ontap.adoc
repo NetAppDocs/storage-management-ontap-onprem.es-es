@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-onprem-ontap.html 
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptios, licenses, bluexp 
-summary: Puede administrar los clústeres ONTAP que se ejecutan en controladores AFF/ FAS y ONTAP Select desde la consola de NetApp .  Agregar sistemas ONTAP locales a la consola de NetApp le permite administrar todos sus activos de almacenamiento y datos desde una única interfaz. 
+summary: Puede administrar los clústeres ONTAP que se ejecutan en controladores AFF/ FAS y ONTAP Select desde la NetApp Console.  Agregar sistemas ONTAP locales a la NetApp Console le permite administrar todos sus activos de almacenamiento y datos desde una única interfaz. 
 ---
-= Obtenga información sobre la gestión de clústeres ONTAP locales en la consola de NetApp
+= Obtenga información sobre la gestión de clústeres ONTAP locales en la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,17 +14,17 @@ summary: Puede administrar los clústeres ONTAP que se ejecutan en controladores
 
 
 [role="lead"]
-Puede administrar los clústeres ONTAP que se ejecutan en controladores AFF/ FAS y ONTAP Select desde la consola de NetApp .  Agregar sistemas ONTAP locales a la consola le permite administrar de manera centralizada todos sus activos de almacenamiento y datos.
+Puede administrar los clústeres ONTAP que se ejecutan en controladores AFF/ FAS y ONTAP Select desde la NetApp Console.  Agregar sistemas ONTAP locales a la consola le permite administrar de manera centralizada todos sus activos de almacenamiento y datos.
 
 
 
-== Consola de NetApp
+== NetApp Console
 
-La consola de NetApp proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
+La NetApp Console proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
 
 No necesita una licencia o suscripción para comenzar a usar NetApp Console y solo incurre en cargos cuando necesita implementar agentes de Console en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp . Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.
 
-Obtenga más información sobre el https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["Consola de NetApp"] .
+Obtenga más información sobre el https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"] .
 
 
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-remove-on-prem.html 
 keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment, storage admin, netapp console, console remove system 
-summary: Elimine un sistema ONTAP local si ya no desea administrarlo desde la consola de NetApp . 
+summary: Elimine un sistema ONTAP local si ya no desea administrarlo desde la NetApp Console. 
 ---
-= Eliminar un sistema ONTAP local desde la consola de NetApp
+= Eliminar un sistema ONTAP local desde la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -17,7 +17,7 @@ summary: Elimine un sistema ONTAP local si ya no desea administrarlo desde la co
 Elimine un sistema ONTAP local si ya no desea administrarlo desde la consola.
 
 .Rol de consola requerido:
-Administrador de almacenamiento.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la consola de NetApp ."^]
+Administrador de almacenamiento.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la NetApp Console ."^]
 
 La eliminación del sistema no afecta al clúster ONTAP .  Podrás redescubrirlo desde la consola en cualquier momento.
 

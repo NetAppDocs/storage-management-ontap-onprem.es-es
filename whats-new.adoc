@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
 summary: Conozca las novedades en la administración de clústeres ONTAP locales en BlueXP. 
 ---
-= Novedades de los clústeres ONTAP locales en la consola de NetApp
+= Novedades de los clústeres ONTAP locales en la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Conozca las novedades en la administración de clústeres ONTAP locales
 
 
 [role="lead"]
-Conozca las novedades sobre la administración de clústeres ONTAP locales en la consola de NetApp .
+Conozca las novedades sobre la administración de clústeres ONTAP locales en la NetApp Console.
 
 
 
@@ -24,9 +24,9 @@ Conozca las novedades sobre la administración de clústeres ONTAP locales en la
 
 === BlueXP ahora es NetApp Console
 
-La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+La NetApp Console, construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento de NetApp y de los NetApp Data Services en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
 
-Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notas de la versión de la NetApp Console"] .
 
 
 
@@ -213,7 +213,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 Si necesita realizar una gestión avanzada de un clúster local de ONTAP , puede hacerlo mediante ONTAP System Manager, que es una interfaz de gestión que se proporciona con un sistema ONTAP .  Hemos incluido la interfaz de System Manager directamente dentro de Cloud Manager para que no necesite salir de Cloud Manager para realizar una gestión avanzada.
 
-Esta vista avanzada está disponible como vista previa con clústeres ONTAP locales que ejecutan 9.10.0 o posterior. Planeamos perfeccionar esta experiencia y agregar mejoras en próximas versiones. Envíenos sus comentarios mediante el chat del producto.
+Esta vista avanzada está disponible como vista previa con clústeres ONTAP locales que ejecutan 9.10.0 o posterior.  Planeamos perfeccionar esta experiencia y agregar mejoras en próximas versiones.  Envíenos sus comentarios mediante el chat del producto.
 
 * link:task-manage-ontap-direct.html["Aprenda a administrar clústeres descubiertos directamente"]
 * link:task-manage-ontap-connector.html["Aprenda a administrar clústeres descubiertos con un conector"]
@@ -227,7 +227,7 @@ Esta vista avanzada está disponible como vista previa con clústeres ONTAP loca
 
 === Hay una pestaña " ONTAP local" disponible en la Billetera Digital
 
-Ahora puede ver un inventario de sus clústeres ONTAP locales junto con sus fechas de vencimiento de contratos de hardware y servicio. También están disponibles detalles adicionales sobre los clústeres.
+Ahora puede ver un inventario de sus clústeres ONTAP locales junto con sus fechas de vencimiento de contratos de hardware y servicio.  También están disponibles detalles adicionales sobre los clústeres.
 
 https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-view-cluster-info.html["Aprenda a ver esta importante información del clúster local"] . Necesitará tener una cuenta de sitio de soporte de NetApp (NSS) para los clústeres, y las credenciales de NSS deberán estar asociadas a su cuenta de Cloud Manager.
 
