@@ -30,11 +30,12 @@ link:reference-limitations.html["Revisar la lista de limitaciones"] .
 .Pasos
 . En la página *Sistemas*, seleccione el sistema ONTAP local.
 +
-El icono del sistema identifica los clústeres que se descubrieron directamente:
+La palabra "directo" identifica los grupos que se descubrieron directamente:
 
 +
 image:screenshot-direct-discovery-we.png["Una captura de pantalla del ícono del sistema que aparece en la página del Sistema"]
 
+. En la página *Detalles del sistema*, seleccione *Ingresar sistema*.
 . Si se le solicita, ingrese sus credenciales de ONTAP .
 +
 El sistema le solicita que inicie sesión con sus credenciales de ONTAP cada vez que lo abra, a menos que guarde las credenciales. Puede guardarlas para no tener que ingresarlas cada vez. Puede administrarlas en la página Credenciales de usuario.  En algunos casos, es posible que su administrador de consola (con el rol de administrador de la organización) haya deshabilitado esta opción y le solicite que ingrese sus credenciales cada vez.

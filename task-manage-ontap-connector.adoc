@@ -149,10 +149,7 @@ Abra el Administrador del sistema para el sistema.
 . Desde el panel derecho, en *Servicios*, busque *Administrador del sistema* y seleccione *Abrir*.
 . Si ve el mensaje de confirmación, léalo y seleccione *Cerrar*.
 . Utilice el Administrador del sistema para administrar ONTAP.
-. Si es necesario, seleccione *Cambiar a vista estándar* para volver a la administración estándar a través de la Consola.
-+
-image:screenshot-standard-view.png["Una captura de pantalla de un sistema ONTAP local que muestra la opción Cambiar a vista estándar."]
-
+. Si es necesario, seleccione *Regresar* para regresar a la administración estándar a través de la Consola.
 
 
 

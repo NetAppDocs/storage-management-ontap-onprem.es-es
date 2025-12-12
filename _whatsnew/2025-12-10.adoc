@@ -1,0 +1,19 @@
+= Mejoras de usabilidad al visualizar sistemas ONTAP desde la NetApp Console (solo en modo estándar)
+:allow-uri-read: 
+
+
+
+
+=== Mejoras de usabilidad al visualizar sistemas ONTAP desde la NetApp Console (solo en modo estándar)
+
+La página *Sistemas* en la NetApp Console tiene mejoras para mayor claridad y facilidad de uso al administrar volúmenes y clústeres.  Estas actualizaciones alinean más de cerca la experiencia con System Manager para las versiones más nuevas de ONTAP y simplifican la navegación.
+
+.Capacidad de clúster incluida para versiones de ONTAP 9.5 y superiores (solo modo estándar de consola)
+La página *Sistemas > Descripción general* muestra el tamaño del clúster junto con la versión de ONTAP para los clústeres que ejecutan ONTAP 9.5 y versiones posteriores.
+
+Para la NetApp Console en modo restringido o las versiones de ONTAP 9.5 y anteriores, la información del volumen aprovisionado permanece sin cambios.
+
+.La pestaña Volúmenes en la página Sistemas tiene como opción predeterminada la vista de cuadrícula si tiene más de 20 clústeres ONTAP locales
+Cuando tiene más de 20 clústeres ONTAP locales administrados en NetApp Console, la pestaña *Volumen* toma como valor predeterminado la vista de cuadrícula para facilitar la navegación.  La vista de tarjeta está deshabilitada.
+
+Este cambio se aplica únicamente al modo estándar y a las versiones 9.6 y superiores de ONTAP .

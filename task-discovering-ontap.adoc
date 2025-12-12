@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, subscriptions, licenses, digital advisor 
 summary: Descubra los clústeres ONTAP locales desde la NetApp Console para que pueda comenzar a administrar volúmenes y realizar una gestión avanzada mediante ONTAP System Manager, que está disponible desde la consola. 
 ---
 = Descubra los clústeres ONTAP locales en la NetApp Console
@@ -25,7 +25,7 @@ Administrador de almacenamiento o especialista en salud del sistema.link:https:/
 
 Puede agregar clústeres ONTAP locales a la consola de dos maneras.  La forma de elegir dependerá de si tiene o no un agente de consola instalado en su organización:
 
-Descubrimiento y gestión mediante un agente de consola:: Esta opción le permite administrar clústeres que ejecutan ONTAP 8.3 y versiones posteriores mediante las siguientes funciones:
+Descubrimiento y gestión mediante un agente de consola:: Esta opción le permite administrar clústeres que ejecutan ONTAP mediante las siguientes funciones:
 +
 --
 * Proporciona operaciones de volumen básicas de forma nativa a través de la NetApp Console
@@ -135,7 +135,7 @@ Si selecciona esta opción, no necesitará volver a ingresar las credenciales ca
 
 . Seleccione *Descubrir*.
 +
-Si no tiene un agente de consola y no se puede acceder a la dirección IP desde la consola, se le solicitará que cree un agente de consola.  Comuníquese con el administrador de su consola para crear un agente de consola si no tiene uno.
+Si no tiene un agente de consola y no se puede acceder a la dirección IP desde la consola, se le solicitará que cree un agente de consola. Comuníquese con el administrador de su consola para crear un agente de consola si no tiene uno.
 
 
 

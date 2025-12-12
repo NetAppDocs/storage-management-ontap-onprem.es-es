@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-view-cluster-info.html 
 keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
-summary: La billetera digital le permite ver los detalles del contrato para cada uno de sus clústeres ONTAP locales.  Si aún no has descubierto un cluster, también puedes hacerlo desde la billetera digital. 
+summary: Puede ver los detalles del contrato de cada uno de sus clústeres ONTAP locales desde la página *Suscripciones y licencias*. 
 ---
 = Ver información del clúster y detalles del contrato
 :hardbreaks:
@@ -14,9 +14,18 @@ summary: La billetera digital le permite ver los detalles del contrato para cada
 
 
 [role="lead"]
-Puede ver los detalles del contrato para cada uno de sus clústeres ONTAP locales en la NetApp Console. Si aún no ha descubierto un clúster, también puede hacerlo desde la página *Suscripciones y licencias*.
+Puede ver información de capacidad así como información de licencia directamente desde la NetApp Console.
 
-.Rol de consola requerido:
-Administrador de almacenamiento o visor de almacenamiento.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la NetApp Console ."^]
+
+
+== Ver información de capacidad
+
+Cuando selecciona un clúster ONTAP local en la página *Sistemas*, la página *Detalles del sistema* muestra información de capacidad del clúster, incluida la capacidad total, la capacidad utilizada y la capacidad disponible.
+
+
+
+== Ver detalles de licencia y contrato
+
+Puede ver los detalles del contrato de cada uno de sus clústeres ONTAP locales desde la página *Suscripciones y licencias*.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Obtenga más información sobre cómo administrar licencias para clústeres ONTAP locales desde la consola"^]

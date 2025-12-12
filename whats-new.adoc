@@ -18,6 +18,12 @@ Conozca las novedades sobre la administración de clústeres ONTAP locales en la
 
 
 
+== 08 de diciembre de 2025
+
+Directiva sin resolver en <stdin> - include::_whatsnew/2025-12-08.adoc[]
+
+
+
 == 6 de octubre de 2025
 
 
