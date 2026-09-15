@@ -18,6 +18,7 @@ Las limitaciones conocidas identifican plataformas, dispositivos o funciones que
 
 
 
+[[limitations-related-to-asa-r2-systems]]
 == Limitaciones relacionadas con los sistemas ASA r2
 
 Después de descubrir un sistema NetApp ASA r2, se le dirige al Administrador del sistema.
@@ -28,12 +29,14 @@ https://docs.netapp.com/us-en/asa-r2/index.html["Obtenga más información sobre
 
 
 
+[[unsupported-clusters]]
 == Clústeres no compatibles
 
 Los clústeres ONTAP locales que están configurados con autenticación SAML no son compatibles con la consola.
 
 
 
+[[system-manager-limitations]]
 == Limitaciones del Administrador del sistema
 
 Las siguientes funciones del Administrador del sistema no son compatibles con la consola:

@@ -18,6 +18,7 @@ Puede administrar los clústeres ONTAP que se ejecutan en controladores AFF/ FAS
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 La NetApp Console proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
@@ -28,6 +29,7 @@ Obtenga más información sobre el https://docs.netapp.com/us-en/console-setup-a
 
 
 
+[[features]]
 == Funciones
 
 * Administrar volúmenes NFS y CIFS
@@ -39,6 +41,7 @@ Obtenga más información sobre el https://docs.netapp.com/us-en/console-setup-a
 
 
 
+[[cost]]
 == Costo
 
 Podría haber un costo asociado, pero depende de lo siguiente:

@@ -15,6 +15,7 @@ NetApp proporciona soporte para NetApp Console y sus servicios en la nube de div
 
 
 
+[[get-support-for-a-cloud-provider-file-service]]
 == Obtenga soporte para un servicio de archivos de un proveedor de nube
 
 Para obtener soporte técnico relacionado con un servicio de archivos de un proveedor de nube, su infraestructura o cualquier solución que utilice el servicio, consulte la documentación de ese producto.
@@ -28,6 +29,7 @@ Para recibir soporte técnico específico para NetApp y sus soluciones de almace
 
 
 
+[[use-self-support-options]]
 == Utilice opciones de autosuficiencia
 
 Estas opciones están disponibles de forma gratuita, las 24 horas del día, los 7 días de la semana:
@@ -48,6 +50,7 @@ Busque en la base de conocimientos de NetApp para encontrar artículos útiles p
 
 
 
+[[create-a-case-with-netapp-support]]
 == Cree un caso con el soporte de NetApp
 
 Además de las opciones de autosoporte anteriores, puede trabajar con un especialista de soporte de NetApp para resolver cualquier problema después de activar el soporte.
@@ -104,6 +107,7 @@ Este error podría significar que la cuenta NSS y la empresa registrada con la q
 
 
 
+[[manage-your-support-cases]]
 == Gestione sus casos de soporte
 
 Puede ver y administrar casos de soporte activos y resueltos directamente desde la Consola. Podrás gestionar los casos asociados a tu cuenta NSS y a tu empresa.

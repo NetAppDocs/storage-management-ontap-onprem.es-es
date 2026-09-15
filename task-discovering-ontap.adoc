@@ -21,6 +21,7 @@ Administrador de almacenamiento o especialista en salud del sistema.link:https:/
 
 
 
+[[step-1-review-discovery-and-management-options]]
 == Paso 1: Revisar las opciones de descubrimiento y gestión
 
 Puede agregar clústeres ONTAP locales a la consola de dos maneras.  La forma de elegir dependerá de si tiene o no un agente de consola instalado en su organización:
@@ -51,6 +52,7 @@ Si decide agregar un agente de consola a su NetApp Console, deberá volver a agr
 
 
 
+[[step-2-set-up-your-environment]]
 == Paso 2: Configura tu entorno
 
 Antes de descubrir sus clústeres ONTAP locales, asegúrese de cumplir con los siguientes requisitos.
@@ -103,6 +105,7 @@ Requisitos para el descubrimiento directo::
 
 
 
+[[step-3-discover-a-cluster]]
 == Paso 3: Descubrir un clúster
 
 Descubra sus clústeres ONTAP locales desde la consola de una de estas dos maneras:

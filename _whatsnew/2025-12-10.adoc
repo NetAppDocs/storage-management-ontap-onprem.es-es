@@ -4,6 +4,7 @@
 
 
 
+[[usability-enhancements-when-viewing-ontap-systems-from-netapp-console-standard-mode-only]]
 === Mejoras de usabilidad al visualizar sistemas ONTAP desde la NetApp Console (solo en modo estándar)
 
 La página *Sistemas* en la NetApp Console tiene mejoras para mayor claridad y facilidad de uso al administrar volúmenes y clústeres.  Estas actualizaciones alinean más de cerca la experiencia con System Manager para las versiones más nuevas de ONTAP y simplifican la navegación.

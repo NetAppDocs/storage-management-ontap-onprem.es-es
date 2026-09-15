@@ -18,12 +18,14 @@ Puede ver información de capacidad así como información de licencia directame
 
 
 
+[[view-capacity-information]]
 == Ver información de capacidad
 
 Cuando selecciona un clúster ONTAP local en la página *Sistemas*, la página *Detalles del sistema* muestra información de capacidad del clúster, incluida la capacidad total, la capacidad utilizada y la capacidad disponible.
 
 
 
+[[view-license-and-contract-details]]
 == Ver detalles de licencia y contrato
 
 Puede ver los detalles del contrato de cada uno de sus clústeres ONTAP locales desde la página *Suscripciones y licencias*.

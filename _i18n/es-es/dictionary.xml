@@ -405,7 +405,6 @@
   <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">En la parte superior derecha de la Consola, seleccione el ícono Ayuda y seleccione *Soporte*.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Localice el número de serie de su ID de cuenta en la página de Registro de soporte.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Una captura de pantalla del menú Ayuda donde Soporte es la primera opción que aparece</block>
-  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Sitio de registro de soporte de NetApp</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navegar a<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> y seleccione *No soy un cliente registrado de NetApp *.</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Llene los campos obligatorios (aquellos con asteriscos rojos).</block>
@@ -428,7 +427,6 @@
   <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">Estas credenciales de NSS están asociadas con su ID de cuenta de consola específica. Los usuarios que pertenecen a la organización de la Consola pueden acceder a estas credenciales desde *Soporte &gt; Administración de NSS*.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si tiene una cuenta de nivel de cliente, puede agregar una o más cuentas NSS.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si tiene una cuenta de socio o revendedor, puede agregar una o más cuentas NSS, pero no se pueden agregar junto con cuentas de nivel de cliente.</block>
-  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Seleccione *Administración de NSS &gt; Agregar cuenta NSS*.</block>
   <block id="85b9386ed443776127e099931d73448a" category="list-text">Cuando se le solicite, seleccione *Continuar* para ser redirigido a una página de inicio de sesión de Microsoft.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utiliza Microsoft Entra ID como proveedor de identidad para servicios de autenticación específicos de soporte y licencias.</block>
@@ -440,8 +438,6 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Lo mismo ocurre si tiene cuentas NSS de nivel de cliente preexistentes e intenta agregar una cuenta de nivel de socio.</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Tras iniciar sesión correctamente, NetApp almacenará el nombre de usuario NSS.</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Un icono de tres puntos horizontales</block>
-  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Esta es una identificación generada por el sistema que se asigna a su correo electrónico. En la página *Administración de NSS*, puede mostrar su correo electrónico desde el<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menú.</block>
-  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Si alguna vez necesita actualizar sus tokens de credenciales de inicio de sesión, también hay una opción *Actualizar credenciales* en el<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menú.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Al utilizar esta opción se le solicitará que inicie sesión nuevamente. Tenga en cuenta que el token de estas cuentas caduca después de 90 días. Se publicará una notificación para avisarle de esto.</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">Ver información del clúster y detalles del contrato</block>
   <block id="f37fdd0902b8053298a78162a62ee3ca" category="inline-link">Obtenga más información sobre cómo administrar licencias para clústeres ONTAP locales desde la consola</block>
@@ -560,4 +556,8 @@
   <block id="2ddee4e80b9a154cfc971c7cf4848736" category="section-title">Ver detalles de licencia y contrato</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">08 de diciembre de 2025</block>
   <block id="426c031f387e762bb968fd54671cf5a6" category="paragraph">Directiva sin resolver en &lt;stdin&gt; - include::_whatsnew/2025-12-08.adoc[]</block>
+  <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">Este es un ID generado por el sistema que se asocia a tu correo electrónico. En la página *NSS Management*, puedes mostrar tu correo electrónico desde el menú <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">Si alguna vez necesitas actualizar tus tokens de credenciales de inicio de sesión, también hay una opción *Actualizar credenciales* en el menú <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block>.</block>
 </blocks>
